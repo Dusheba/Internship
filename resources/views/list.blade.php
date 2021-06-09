@@ -79,7 +79,7 @@
         }
 
         .accordionMenu .content .inner {
-            font-size: 1.rem;
+            font-size: 1rem;
             color: #000000;
             line-height: 1.5;
             background: white;
@@ -108,7 +108,7 @@
 <?php
 //include  $_SERVER['DOCUMENT_ROOT']."/config/token.php";
 use VK\Client\VKApiClient;
-$com_token="7120d8c9d2bb7e86b165477fe88c1eacfbff498c5f984d85c6bd6a8aec11b121c285fd351df7f067e5099";
+$com_token="your_token";
 $vk = new VKApiClient();
 $group_ids = array('sci','sinekineki','aequator','g_equality','thelisris','kazzzak','baneksbest','art.oooh','que4life','galerkameme','svyaz__vremen','mayland');
 $fields=array('description','activity');
